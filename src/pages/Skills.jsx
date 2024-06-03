@@ -8,13 +8,12 @@ function Skills() {
             #Skills
          </h2>
          <p className='paragraph'>
-            I wield a versatile tech arsenal, specializing in React, JavaScript,
-            Node.js, and TypeScript. With a solid grasp of full-stack
-            development, I seamlessly blend creativity with functionality to
-            build sleek and efficient web solutions. My low-level understanding
-            of backend development with Node.js adds depth to my technical
-            prowess. Eager to tackle challenges and always up for learning
-            something new in the ever-evolving tech landscape.
+            I specialize in Node.js, Next.js, Express.js and TypeScript. I
+            create efficient web applications with a focus on both front-end and
+            back-end development. My skills include building user-friendly
+            interfaces and developing robust server-side applications. I'm
+            always eager to learn new technologies and improve my technical
+            abilities.
          </p>
          <div className='flex lg:flex-row flex-col gap-2 md:gap-6 p-2 lg:p-4'>
             <div className='gap-2 md:gap-3 lg:gap-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 basis-2/5'>
@@ -22,9 +21,9 @@ function Skills() {
                   Languages and Frameworks
                </h3>
                <span className='skill'>TypeScript</span>
-               <span className='skill'>Next.js</span>
-               <span className='skill'>Node.js</span>
-               <span className='skill'>React.js</span>
+               <span className='skill'>Nextjs</span>
+               <span className='skill'>Nodejs</span>
+               <span className='skill'>React</span>
                <span className='skill'>HTML & CSS</span>
                <span className='skill'>UI / UX</span>
             </div>
@@ -32,14 +31,16 @@ function Skills() {
                <p className='py-2 lg:py-4 font-semibold text-center text-primary text-xl basis-full'>
                   Tools and Technologies
                </p>
+               <span className='tool'>Docker</span>
+               <span className='tool'>Linux</span>
                <span className='tool'>tailwind-css</span>
+               <span className='tool'>Express</span>
+               <span className='tool'>git & Github</span>
+               <span className='tool'>Hono</span>
+               <span className='tool'>Bun</span>
+               <span className='tool'>Figma</span>
                <span className='tool'>SCSS</span>
                <span className='tool'>Vscode</span>
-               <span className='tool'>git & Github</span>
-               <span className='tool'>Docker</span>
-               <span className='tool'>Bun</span>
-               <span className='tool'>Linux</span>
-               <span className='tool'>Figma</span>
                <span className='tool'>Drizzle</span>
                <span className='tool'>Prisma</span>
                <span className='tool'>MongoDB</span>

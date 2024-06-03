@@ -22,9 +22,15 @@ function Hero() {
          <div className='mx-auto max-w-80 basis-1/4 hero-image'>
             <img
                draggable='false'
-               src='./src/assets/profile-2.png'
+               src='p3.png'
                alt='portrait'
-               className='drop-shadow-2xl w-full h-full object-fill'
+               className='dark:block hidden drop-shadow-2xl w-full h-full object-fill'
+            />
+            <img
+               draggable='false'
+               src='p4.png'
+               alt='portrait'
+               className='dark:hidden drop-shadow-2xl w-full h-full object-fill'
             />
          </div>
       </section>

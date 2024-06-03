@@ -15,11 +15,7 @@ function About() {
          <h2 className='py-3 section-title  '>#About Me</h2>
          <div className='flex gap-4 flex-col md:flex-row'>
             <div className='basis-1/3 illustration hidden md:block'>
-               <img
-                  src='./src/assets/coder.svg'
-                  alt='coder illustration'
-                  className=''
-               />
+               <img src='.coder.svg' alt='coder illustration' className='' />
             </div>
             <div className='flex flex-col basis-2/3 '>
                <div className='flex flex-col justify-center gap-2 '>
@@ -27,16 +23,15 @@ function About() {
                      Who is Haileiyesus?
                   </h3>
                   <p className='paragraph '>
-                     Hey there! I'm Haileiyesus, a full-stack web developer
-                     based in Addis Ababa, Ethiopia. I thrive on turning ideas
-                     into interactive and dynamic web experiences using React,
-                     JavaScript, Node.js, and TypeScript. Beyond coding, you'll
-                     find me cheering for my favorite football teams and
-                     enjoying some downtime with music and movies. Currently a
-                     software engineering student, I'm on the lookout for
-                     exciting job opportunities or freelancing gigs to further
-                     fuel my passion for creating awesome digital solutions.
-                     Let's connect and bring ideas to life!
+                     Hi, I'm Haileiyesus, a passionate full stack web developer
+                     & Software Engineering student at Addis Ababa Science and
+                     Technology University. With a knack for crafting dynamic
+                     and responsive web applications, I work extensively with
+                     JavaScript, Typescript, Node.js, Next.js and React. I'm on
+                     the lookout for new opportunities, whether it's a full-time
+                     position or a freelancing gig. In my free time, you can
+                     find me watching football or getting lost in a good movie.
+                     Let's build something amazing together!
                   </p>
                </div>
                <ul className='p-2 md:p-4 inline-flex flex-col md:items-start gap-3 md:gap-1 max-w-3xl'>
