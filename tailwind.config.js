@@ -6,7 +6,7 @@ export default {
       extend: {
          colors: {
             primary: '#7F27FF',
-            mate: '#28282B',
+            mate: '#121224',
          },
          fontFamily: {
             body: ['Geist', 'GeistMono'],

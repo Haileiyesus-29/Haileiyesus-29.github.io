@@ -4,7 +4,7 @@ function Contact() {
          id='contact'
          className='flex flex-col justify-center px-2 pt-2 pb-10 min-h-full'
       >
-         <div className='flex flex-col gap-4 bg-white dark:bg-gray-950/20 p-4 md:p-10'>
+         <div className='flex flex-col gap-4 bg-white dark:bg-gray-700/40 p-4 md:p-10'>
             <h2 className='font-semibold text-center text-xl md:text-3xl dark:text-gray-100'>
                Contact Me.
             </h2>
@@ -22,7 +22,7 @@ function Contact() {
                      opportunities!
                   </p>
                </div>
-               <form className='flex flex-col gap-4 border-2 dark:border-gray-800 shadow-sm px-4 py-6 grow'>
+               <form className='flex flex-col gap-4 border-2 dark:border-gray-400/40 shadow-sm px-4 py-6 grow'>
                   <div className='flex flex-col justify-between gap-1'>
                      <label htmlFor='name'>Name</label>
                      <input

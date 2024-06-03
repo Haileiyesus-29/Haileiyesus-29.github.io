@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Project({ project, link }) {
    return (
-      <div className='relative flex bg-white dark:bg-gray-950/30 p-4 pb-12 min-h-64 project'>
+      <div className='relative flex bg-white dark:bg-gray-700/40 p-4 pb-12 min-h-64 project'>
          <div className='flex flex-col gap-1rem'>
             <h3 className='py-3 font-semibold text-center text-gray-800 text-xl dark:text-gray-50/80'>
                {project.title}
