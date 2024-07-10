@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer base {
-   #root {
+   html {
+      scroll-behavior: smooth;
+   }
+   body {
       font-family: 'Geist', sans-serif;
       @apply h-svh dark:bg-mate bg-gray-100 bg-fixed overflow-hidden;
       /* @apply min-h-svh dark:bg-black bg-gray-100 bg-fixed; */
