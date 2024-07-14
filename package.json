@@ -1,7 +1,7 @@
 {
    "name": "portfolio",
    "version": "1.0.0",
-   "main": "script.js",
+   "main": "theme.js",
    "scripts": {
       "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
    },

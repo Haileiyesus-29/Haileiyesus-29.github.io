@@ -8,204 +8,208 @@
          rel="stylesheet"
          href="../../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
       />
-      <script defer src="../script.js"></script>
+      <script defer src="../theme.js"></script>
+      <script defer src="../carousel.js"></script>
    </head>
-   <body
-      class="relative mx-auto max-w-screen-2xl overflow-hidden overflow-y-auto"
-   >
-      <header class="top-0 z-10 fixed w-full max-w-screen-2xl h-10">
+   <body class="mx-auto p-2 max-w-screen-2xl overflow-hidden overflow-y-auto">
+      <header class="">
          <!-- navbar -->
-         <nav
-            class="top-4 left-4 z-10 absolute flex items-end gap-1 font-mono font-semibold text-2xl text-gray-900 dark:text-gray-100"
-         >
-            <img src="../../assets/Logo.svg" alt="logo" class="w-10 h-10" />
+         <nav class="flex justify-between">
+            <img
+               src="../../assets/logo-b.svg"
+               alt="logo"
+               class="dark:hidden w-14 h-14"
+            />
+            <img
+               src="../../assets/logo-w.svg"
+               alt="logo"
+               class="dark:inline-block hidden w-14 h-14"
+            />
+            <div class="">
+               <label id="theme-toggle-button" class="p-0">
+                  <input type="checkbox" id="toggle" class="hidden" />
+                  <svg viewBox="0 0 69.667 44">
+                     <g transform="translate(3.5 3.5)" id="Component_15_1">
+                        <g
+                           filter="url(#container)"
+                           transform="matrix(1, 0, 0, 1, -3.5, -3.5)"
+                        >
+                           <rect
+                              fill="#83cbd8"
+                              transform="translate(3.5 3.5)"
+                              rx="17.5"
+                              height="35"
+                              width="60.667"
+                              data-name="container"
+                              id="container"
+                           ></rect>
+                        </g>
+                        <g transform="translate(2.333 2.333)" id="button">
+                           <g data-name="sun" id="sun">
+                              <g
+                                 filter="url(#sun-outer)"
+                                 transform="matrix(1, 0, 0, 1, -5.83, -5.83)"
+                              >
+                                 <circle
+                                    fill="#f8e664"
+                                    transform="translate(5.83 5.83)"
+                                    r="15.167"
+                                    cy="15.167"
+                                    cx="15.167"
+                                    data-name="sun-outer"
+                                    id="sun-outer-2"
+                                 ></circle>
+                              </g>
+                              <g
+                                 filter="url(#sun)"
+                                 transform="matrix(1, 0, 0, 1, -5.83, -5.83)"
+                              >
+                                 <path
+                                    fill="rgba(246,254,247,0.29)"
+                                    transform="translate(9.33 9.33)"
+                                    d="M11.667,0A11.667,11.667,0,1,1,0,11.667,11.667,11.667,0,0,1,11.667,0Z"
+                                    data-name="sun"
+                                    id="sun-3"
+                                 ></path>
+                              </g>
+                              <circle
+                                 fill="#fcf4b9"
+                                 transform="translate(8.167 8.167)"
+                                 r="7"
+                                 cy="7"
+                                 cx="7"
+                                 id="sun-inner"
+                              ></circle>
+                           </g>
+                           <g data-name="moon" id="moon">
+                              <g
+                                 filter="url(#moon)"
+                                 transform="matrix(1, 0, 0, 1, -31.5, -5.83)"
+                              >
+                                 <circle
+                                    fill="#cce6ee"
+                                    transform="translate(31.5 5.83)"
+                                    r="15.167"
+                                    cy="15.167"
+                                    cx="15.167"
+                                    data-name="moon"
+                                    id="moon-3"
+                                 ></circle>
+                              </g>
+                              <g
+                                 fill="#a6cad0"
+                                 transform="translate(-24.415 -1.009)"
+                                 id="patches"
+                              >
+                                 <circle
+                                    transform="translate(43.009 4.496)"
+                                    r="2"
+                                    cy="2"
+                                    cx="2"
+                                 ></circle>
+                                 <circle
+                                    transform="translate(39.366 17.952)"
+                                    r="2"
+                                    cy="2"
+                                    cx="2"
+                                    data-name="patch"
+                                 ></circle>
+                                 <circle
+                                    transform="translate(33.016 8.044)"
+                                    r="1"
+                                    cy="1"
+                                    cx="1"
+                                    data-name="patch"
+                                 ></circle>
+                                 <circle
+                                    transform="translate(51.081 18.888)"
+                                    r="1"
+                                    cy="1"
+                                    cx="1"
+                                    data-name="patch"
+                                 ></circle>
+                                 <circle
+                                    transform="translate(33.016 22.503)"
+                                    r="1"
+                                    cy="1"
+                                    cx="1"
+                                    data-name="patch"
+                                 ></circle>
+                                 <circle
+                                    transform="translate(50.081 10.53)"
+                                    r="1.5"
+                                    cy="1.5"
+                                    cx="1.5"
+                                    data-name="patch"
+                                 ></circle>
+                              </g>
+                           </g>
+                        </g>
+                        <g
+                           filter="url(#cloud)"
+                           transform="matrix(1, 0, 0, 1, -3.5, -3.5)"
+                        >
+                           <path
+                              fill="#fff"
+                              transform="translate(-3466.47 -160.94)"
+                              d="M3512.81,173.815a4.463,4.463,0,0,1,2.243.62.95.95,0,0,1,.72-1.281,4.852,4.852,0,0,1,2.623.519c.034.02-.5-1.968.281-2.716a2.117,2.117,0,0,1,2.829-.274,1.821,1.821,0,0,1,.854,1.858c.063.037,2.594-.049,3.285,1.273s-.865,2.544-.807,2.626a12.192,12.192,0,0,1,2.278.892c.553.448,1.106,1.992-1.62,2.927a7.742,7.742,0,0,1-3.762-.3c-1.28-.49-1.181-2.65-1.137-2.624s-1.417,2.2-2.623,2.2a4.172,4.172,0,0,1-2.394-1.206,3.825,3.825,0,0,1-2.771.774c-3.429-.46-2.333-3.267-2.2-3.55A3.721,3.721,0,0,1,3512.81,173.815Z"
+                              data-name="cloud"
+                              id="cloud"
+                           ></path>
+                        </g>
+                        <g
+                           fill="#def8ff"
+                           transform="translate(3.585 1.325)"
+                           id="stars"
+                        >
+                           <path
+                              transform="matrix(-1, 0.017, -0.017, -1, 24.231, 3.055)"
+                              d="M.774,0,.566.559,0,.539.458.933.25,1.492l.485-.361.458.394L1.024.953,1.509.592.943.572Z"
+                           ></path>
+                           <path
+                              transform="matrix(-0.777, 0.629, -0.629, -0.777, 23.185, 12.358)"
+                              d="M1.341.529.836.472.736,0,.505.46,0,.4.4.729l-.231.46L.605.932l.4.326L.9.786Z"
+                              data-name="star"
+                           ></path>
+                           <path
+                              transform="matrix(0.438, 0.899, -0.899, 0.438, 23.177, 29.735)"
+                              d="M.015,1.065.475.9l.285.365L.766.772l.46-.164L.745.494.751,0,.481.407,0,.293.285.658Z"
+                              data-name="star"
+                           ></path>
+                           <path
+                              transform="translate(12.677 0.388) rotate(104)"
+                              d="M1.161,1.6,1.059,1,1.574.722.962.607.86,0,.613.572,0,.457.446.881.2,1.454l.516-.274Z"
+                              data-name="star"
+                           ></path>
+                           <path
+                              transform="matrix(-0.07, 0.998, -0.998, -0.07, 11.066, 15.457)"
+                              d="M.873,1.648l.114-.62L1.579.945,1.03.62,1.144,0,.706.464.157.139.438.7,0,1.167l.592-.083Z"
+                              data-name="star"
+                           ></path>
+                           <path
+                              transform="translate(8.326 28.061) rotate(11)"
+                              d="M.593,0,.638.724,0,.982l.7.211.045.724.36-.64.7.211L1.342.935,1.7.294,1.063.552Z"
+                              data-name="star"
+                           ></path>
+                           <path
+                              transform="translate(5.012 5.962) rotate(172)"
+                              d="M.816,0,.5.455,0,.311.323.767l-.312.455.516-.215.323.456L.827.911,1.343.7.839.552Z"
+                              data-name="star"
+                           ></path>
+                           <path
+                              transform="translate(2.218 14.616) rotate(169)"
+                              d="M1.261,0,.774.571.114.3.487.967,0,1.538.728,1.32l.372.662.047-.749.728-.218L1.215.749Z"
+                              data-name="star"
+                           ></path>
+                        </g>
+                     </g>
+                  </svg>
+               </label>
+            </div>
          </nav>
-
-         <!-- Logo icon -->
-         <div class="top-4 right-4 z-10 absolute">
-            <label id="theme-toggle-button" class="p-0">
-               <input type="checkbox" id="toggle" class="hidden" />
-               <svg viewBox="0 0 69.667 44">
-                  <g transform="translate(3.5 3.5)" id="Component_15_1">
-                     <g
-                        filter="url(#container)"
-                        transform="matrix(1, 0, 0, 1, -3.5, -3.5)"
-                     >
-                        <rect
-                           fill="#83cbd8"
-                           transform="translate(3.5 3.5)"
-                           rx="17.5"
-                           height="35"
-                           width="60.667"
-                           data-name="container"
-                           id="container"
-                        ></rect>
-                     </g>
-                     <g transform="translate(2.333 2.333)" id="button">
-                        <g data-name="sun" id="sun">
-                           <g
-                              filter="url(#sun-outer)"
-                              transform="matrix(1, 0, 0, 1, -5.83, -5.83)"
-                           >
-                              <circle
-                                 fill="#f8e664"
-                                 transform="translate(5.83 5.83)"
-                                 r="15.167"
-                                 cy="15.167"
-                                 cx="15.167"
-                                 data-name="sun-outer"
-                                 id="sun-outer-2"
-                              ></circle>
-                           </g>
-                           <g
-                              filter="url(#sun)"
-                              transform="matrix(1, 0, 0, 1, -5.83, -5.83)"
-                           >
-                              <path
-                                 fill="rgba(246,254,247,0.29)"
-                                 transform="translate(9.33 9.33)"
-                                 d="M11.667,0A11.667,11.667,0,1,1,0,11.667,11.667,11.667,0,0,1,11.667,0Z"
-                                 data-name="sun"
-                                 id="sun-3"
-                              ></path>
-                           </g>
-                           <circle
-                              fill="#fcf4b9"
-                              transform="translate(8.167 8.167)"
-                              r="7"
-                              cy="7"
-                              cx="7"
-                              id="sun-inner"
-                           ></circle>
-                        </g>
-                        <g data-name="moon" id="moon">
-                           <g
-                              filter="url(#moon)"
-                              transform="matrix(1, 0, 0, 1, -31.5, -5.83)"
-                           >
-                              <circle
-                                 fill="#cce6ee"
-                                 transform="translate(31.5 5.83)"
-                                 r="15.167"
-                                 cy="15.167"
-                                 cx="15.167"
-                                 data-name="moon"
-                                 id="moon-3"
-                              ></circle>
-                           </g>
-                           <g
-                              fill="#a6cad0"
-                              transform="translate(-24.415 -1.009)"
-                              id="patches"
-                           >
-                              <circle
-                                 transform="translate(43.009 4.496)"
-                                 r="2"
-                                 cy="2"
-                                 cx="2"
-                              ></circle>
-                              <circle
-                                 transform="translate(39.366 17.952)"
-                                 r="2"
-                                 cy="2"
-                                 cx="2"
-                                 data-name="patch"
-                              ></circle>
-                              <circle
-                                 transform="translate(33.016 8.044)"
-                                 r="1"
-                                 cy="1"
-                                 cx="1"
-                                 data-name="patch"
-                              ></circle>
-                              <circle
-                                 transform="translate(51.081 18.888)"
-                                 r="1"
-                                 cy="1"
-                                 cx="1"
-                                 data-name="patch"
-                              ></circle>
-                              <circle
-                                 transform="translate(33.016 22.503)"
-                                 r="1"
-                                 cy="1"
-                                 cx="1"
-                                 data-name="patch"
-                              ></circle>
-                              <circle
-                                 transform="translate(50.081 10.53)"
-                                 r="1.5"
-                                 cy="1.5"
-                                 cx="1.5"
-                                 data-name="patch"
-                              ></circle>
-                           </g>
-                        </g>
-                     </g>
-                     <g
-                        filter="url(#cloud)"
-                        transform="matrix(1, 0, 0, 1, -3.5, -3.5)"
-                     >
-                        <path
-                           fill="#fff"
-                           transform="translate(-3466.47 -160.94)"
-                           d="M3512.81,173.815a4.463,4.463,0,0,1,2.243.62.95.95,0,0,1,.72-1.281,4.852,4.852,0,0,1,2.623.519c.034.02-.5-1.968.281-2.716a2.117,2.117,0,0,1,2.829-.274,1.821,1.821,0,0,1,.854,1.858c.063.037,2.594-.049,3.285,1.273s-.865,2.544-.807,2.626a12.192,12.192,0,0,1,2.278.892c.553.448,1.106,1.992-1.62,2.927a7.742,7.742,0,0,1-3.762-.3c-1.28-.49-1.181-2.65-1.137-2.624s-1.417,2.2-2.623,2.2a4.172,4.172,0,0,1-2.394-1.206,3.825,3.825,0,0,1-2.771.774c-3.429-.46-2.333-3.267-2.2-3.55A3.721,3.721,0,0,1,3512.81,173.815Z"
-                           data-name="cloud"
-                           id="cloud"
-                        ></path>
-                     </g>
-                     <g
-                        fill="#def8ff"
-                        transform="translate(3.585 1.325)"
-                        id="stars"
-                     >
-                        <path
-                           transform="matrix(-1, 0.017, -0.017, -1, 24.231, 3.055)"
-                           d="M.774,0,.566.559,0,.539.458.933.25,1.492l.485-.361.458.394L1.024.953,1.509.592.943.572Z"
-                        ></path>
-                        <path
-                           transform="matrix(-0.777, 0.629, -0.629, -0.777, 23.185, 12.358)"
-                           d="M1.341.529.836.472.736,0,.505.46,0,.4.4.729l-.231.46L.605.932l.4.326L.9.786Z"
-                           data-name="star"
-                        ></path>
-                        <path
-                           transform="matrix(0.438, 0.899, -0.899, 0.438, 23.177, 29.735)"
-                           d="M.015,1.065.475.9l.285.365L.766.772l.46-.164L.745.494.751,0,.481.407,0,.293.285.658Z"
-                           data-name="star"
-                        ></path>
-                        <path
-                           transform="translate(12.677 0.388) rotate(104)"
-                           d="M1.161,1.6,1.059,1,1.574.722.962.607.86,0,.613.572,0,.457.446.881.2,1.454l.516-.274Z"
-                           data-name="star"
-                        ></path>
-                        <path
-                           transform="matrix(-0.07, 0.998, -0.998, -0.07, 11.066, 15.457)"
-                           d="M.873,1.648l.114-.62L1.579.945,1.03.62,1.144,0,.706.464.157.139.438.7,0,1.167l.592-.083Z"
-                           data-name="star"
-                        ></path>
-                        <path
-                           transform="translate(8.326 28.061) rotate(11)"
-                           d="M.593,0,.638.724,0,.982l.7.211.045.724.36-.64.7.211L1.342.935,1.7.294,1.063.552Z"
-                           data-name="star"
-                        ></path>
-                        <path
-                           transform="translate(5.012 5.962) rotate(172)"
-                           d="M.816,0,.5.455,0,.311.323.767l-.312.455.516-.215.323.456L.827.911,1.343.7.839.552Z"
-                           data-name="star"
-                        ></path>
-                        <path
-                           transform="translate(2.218 14.616) rotate(169)"
-                           d="M1.261,0,.774.571.114.3.487.967,0,1.538.728,1.32l.372.662.047-.749.728-.218L1.215.749Z"
-                           data-name="star"
-                        ></path>
-                     </g>
-                  </g>
-               </svg>
-            </label>
-         </div>
       </header>
       <main class="">
-         <section class="flex flex-col justify-center items-center h-svh">
+         <section class="flex flex-col justify-center items-center py-4">
             <div class="p-4 self-start">
                <a href="../index.html">
                   <i class="fa-arrow-left fa-solid"></i>
@@ -213,34 +217,64 @@
                </a>
             </div>
             <div
-               class="flex flex-col items-center bg-gray-50/30 dark:bg-gray-900/80 shadow-lg backdrop-blur-sm px-2 py-10 border w-full"
+               class="flex justify-center items-center bg-gray-50/30 dark:bg-gray-900/80 shadow-lg backdrop-blur-sm px-2 py-10 border w-full"
             >
+               <!-- carousel element -->
                <div
-                  class="rounded-xl max-w-screen-lg overflow-hidden aspect-video"
+                  class="relative rounded-xl w-full max-w-screen-lg overflow-hidden aspect-video"
                >
-                  <img
-                     src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"
-                     alt="project image"
-                     class="w-full h-full object-cover"
-                  />
-               </div>
-               <div class="flex justify-center gap-8 p-6">
+                  <div
+                     id="carousel"
+                     class="w-full h-full whitespace-nowrap overflow-x-auto overflow-y-hidden"
+                  >
+                     <img
+                        src="../../assets/forkify/forkify-1.png"
+                        alt="project image"
+                        class="inline-block w-full h-full object-center object-fill"
+                     />
+
+                     <img
+                        src="../../assets/forkify/forkify-2.png"
+                        alt="project image"
+                        class="inline-block w-full h-full object-center object-fill"
+                     />
+
+                     <img
+                        src="../../assets/forkify/forkify-3.png"
+                        alt="project image"
+                        class="inline-block w-full h-full object-center object-fill"
+                     />
+                     <img
+                        src="../../assets/forkify/forkify-4.png"
+                        alt="project image"
+                        class="inline-block w-full h-full object-center object-fill"
+                     />
+                     <img
+                        src="../../assets/forkify/forkify-5.png"
+                        alt="project image"
+                        class="inline-block w-full h-full object-center object-fill"
+                     />
+                  </div>
+                  <span class="top-0 left-0 z-10 absolute w-full h-full"></span>
                   <span
-                     class="flex justify-center items-center hover:border-primary border rounded-full w-16 h-16 hover:text-2xl hover:text-primary dark:hover:text-primary dark:text-gray-50 cursor-pointer"
+                     id="prev"
+                     class="top-0 left-0 z-20 absolute flex justify-center items-center hover:border-primary bg-gradient-to-r from-gray-900/50 to-transparent w-[10%] h-full hover:text-2xl hover:text-primary dark:hover:text-primary dark:text-gray-50 cursor-pointer"
                      ><i class="fa-arrow-left fa-solid"></i
                   ></span>
                   <span
-                     class="flex justify-center items-center hover:border-primary border rounded-full w-16 h-16 hover:text-2xl hover:text-primary dark:hover:text-primary dark:text-gray-50 cursor-pointer"
+                     id="next"
+                     class="top-0 right-0 z-20 absolute flex justify-center items-center hover:border-primary bg-gradient-to-l from-gray-900/50 to-transparent w-[10%] h-full hover:text-2xl hover:text-primary dark:hover:text-primary dark:text-gray-50 cursor-pointer"
                      ><i class="fa-arrow-right fa-solid"></i
                   ></span>
                </div>
+               <!-- buttons -->
             </div>
          </section>
          <section
-            class="flex flex-col justify-center items-start gap-8 h-svh dark:text-gray-50"
+            class="flex flex-col justify-center items-start gap-8 py-10 dark:text-gray-50"
          >
-            <h1 class="font-bold font-mono text-6xl">Video-Meet-App</h1>
-            <div class="flex gap-8">
+            <h1 class="font-bold font-mono text-4xl lg:text-6xl">Forkify</h1>
+            <div class="flex lg:flex-row flex-col gap-8">
                <div
                   class="bg-gray-50/30 dark:bg-gray-900/30 backdrop-blur-md p-8 border"
                >
@@ -248,20 +282,14 @@
                   <p
                      class="text-gray-800/80 dark:text-gray-50/80 leading-relaxed"
                   >
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Nesciunt saepe atque, dolore dolores minima aliquam optio
-                     nobis fugiat porro alias delectus vero, minus fugit
-                     sapiente voluptates repellat quis architecto rerum eius
-                     laboriosam nemo modi? Provident, ipsam optio deserunt
-                     exercitationem modi doloribus error temporibus asperiores
-                     labore dignissimos sint quasi. Natus ullam, adipisci nulla
-                     maxime magnam commodi, nihil voluptates cumque dolorum
-                     error mollitia asperiores modi ab nisi autem laudantium!
-                     Consequatur similique soluta porro eveniet ullam, error
-                     aperiam nulla temporibus? Porro ex molestias eveniet unde
-                     consectetur tenetur. Minus et incidunt numquam tempora
-                     nostrum ut voluptate veniam, beatae error? Quia magnam
-                     itaque esse labore!
+                     Forkify is a recipe search engine that allows users to
+                     search for recipes by ingredients. Users can search for
+                     recipes by typing in the search bar and clicking the search
+                     button. The search results will display a list of recipes
+                     that match the search query. Users can click on a recipe to
+                     view the ingredients and instructions. Forkify also allows
+                     users to bookmark recipes and add them to their shopping
+                     list.
                   </p>
                </div>
                <div
@@ -271,16 +299,13 @@
                      <h3 class="text-2xl underline leading-loose">Features</h3>
                      <ul class="basis-2/5">
                         <li class="text-gray-800/80 dark:text-gray-50/80">
-                           Online meetup
+                           Recipe Search Engine
                         </li>
                         <li class="text-gray-800/80 dark:text-gray-50/80">
-                           Feature 2
+                           Recipe Bookmarks
                         </li>
                         <li class="text-gray-800/80 dark:text-gray-50/80">
-                           Feature 3
-                        </li>
-                        <li class="text-gray-800/80 dark:text-gray-50/80">
-                           Feature 4
+                           Recipe procdure
                         </li>
                      </ul>
                   </div>
@@ -290,16 +315,16 @@
                      </h3>
                      <ul class="">
                         <li class="text-gray-800/80 dark:text-gray-50/80">
-                           Nextjs
+                           HTML
                         </li>
                         <li class="text-gray-800/80 dark:text-gray-50/80">
-                           Posgresql
+                           CSS
                         </li>
                         <li class="text-gray-800/80 dark:text-gray-50/80">
-                           Stream.io
+                           JavaScript
                         </li>
                         <li class="text-gray-800/80 dark:text-gray-50/80">
-                           Kinde Auth
+                           SCSS
                         </li>
                      </ul>
                   </div>
@@ -310,14 +335,20 @@
                         <li
                            class="flex gap-3 text-gray-800/80 dark:text-gray-50/80"
                         >
-                           <span> Website : </span>
-                           <a href="https://vidwomeetapp.com"
-                              >videomeetapp.com</a
-                           >
+                           <span class="shrink-0"> Website : </span>
+                           <a href="https://forkify-haileiyesus.netlify.app">
+                              https://forkify-haileiyesus.netlify.app
+                           </a>
                         </li>
-                        <li class="text-gray-800/80 dark:text-gray-50/80">
-                           <span> Github : </span>
-                           <a href="github.com" target="_blank">github.com</a>
+                        <li
+                           class="flex gap-3 text-gray-800/80 dark:text-gray-50/80"
+                        >
+                           <span class="shrink-0"> Github : </span>
+                           <a
+                              href="https://github.com/Haileiyesus-29/Forkify"
+                              target="_blank"
+                              >https://github.com/Haileiyesus-29/Forkify</a
+                           >
                         </li>
                      </ul>
                   </div>
